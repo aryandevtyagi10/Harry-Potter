@@ -9,7 +9,7 @@ function typeWriter() {
 }
 typeWriter();
 
-const audio = new Audio('.mp3');
+const audio = new Audio('y2mate-com-harry-potter-ringtone-bgm-tone-54095.mp3');
 document.getElementById('playBtn').addEventListener('click', () => {
   audio.paused ? audio.play() : audio.pause();
 });
